@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <DesktopComputerIcon className="mx-auto inline-block w-10 mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white"> Works I have built </h1>
+                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white"> Projects And Works </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> These are the projects I have built and you can click on each project to open source code to each project in my GitHub. Hover over projects to see Project name, technologies used and description: </p>
                     </div>
                     <div className="flex flex-wrap -m-4">
