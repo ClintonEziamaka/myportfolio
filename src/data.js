@@ -17,20 +17,14 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const certification = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "",
-    name: "Jesse Hicks",
-    company: "",
+    name: "Digital Transformation Management",
+    company: "Simon Fraser University",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "",
-    company: "",
+    name: "Salesforce Certified Administrator",
+    company: "Salesforce",
   },
 ];
 
@@ -38,12 +32,13 @@ export const skills = [
   "JavaScript",
   "Java",
   "React",
+  "SQL",
   "Node.js",
   "R/Rstudio",
   "HTML/CSS",
-  "UI/UX design",
-  "SQL",
+  "Lightning Web Component",
+  "Apex",
   "MongoDB",
-  "Windows OS",
-  "Mac OS"
+  "Git, Bitbucket",
+  "JIRA, Enable"
 ];
