@@ -28,6 +28,11 @@ export const certification = [
   },
 ];
 
+export const testimonials = [
+{quote: "", image: "", name: "", company: ""},
+{quote: "", image: "", name: "", company: ""},
+];
+
 export const skills = [
   "JavaScript",
   "Java",
