@@ -17,7 +17,7 @@ export const projects = [
   },
 ];
 
-export const certification = [
+export const certifications = [
   {
     name: "Digital Transformation Management",
     company: "Simon Fraser University",
