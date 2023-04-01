@@ -7,7 +7,7 @@ export default function Certification() {
 return(
 <section id="certifications">
     <div className="container px-5 py-10 mx-auto text-center">
-    <TerminalIcon className="block w-8 text-gray-500 mb-4" />
+    <TerminalIcon className="inline-block w-10 text-gray-500 mb-4" />
     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12"> Certifications: </h1>
     <div className="flex flex-wrap m-4">  
     {certifications.map((certification) => (
