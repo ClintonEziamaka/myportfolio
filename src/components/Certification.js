@@ -1,6 +1,6 @@
 import React from "react";
 import { certifications } from "../data";
-import { TerminalIcon, UserIcon } from "@heroicons/react/solid";
+import { TerminalIcon, BadgeCheckIcon } from "@heroicons/react/solid";
 
 
 export default function Certification() {
@@ -14,7 +14,7 @@ return(
         <div className="p-4 md:w-1/2 w-full">
         <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
             <div className="inline-flex items-center"> 
-            <BookOpenIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+            <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
             <span className="flex-grow flex flex-col pl-4">
                 <span className="title-font font-medium text-white">{certification.name}</span>
                 <span className="text-gray-500 text-sm uppercase">{certification.company}</span>
