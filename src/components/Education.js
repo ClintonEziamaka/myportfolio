@@ -14,10 +14,12 @@ export default function Education() {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
 {education.map((education) => (
     <div key={education} className="p-2 sm:w-1/2 w-full">
-        <div className="bg-gray-800 rounded flex p-4 h-full ">
+        <div className="bg-gray-800 rounded flex p-4 h-full <a href="#education" className="mr-5 hover:text-white"> Education </a> ">
             <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+            <span className="flex-grow flex flex-col pl-4">
             <span className="text-gray-500 text-sm uppercase">{education.Program}</span>
             <span className="title-font font-medium text-white"> {education.School} </span>
+            </span>
         </div>
     </div>
 ))} 
