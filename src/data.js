@@ -19,10 +19,6 @@ export const projects = [
 
 export const certifications = [
   {
-    name: "Digital Transformation Management",
-    company: "Simon Fraser University",
-  },
-  {
     name: "Salesforce Certified Administrator",
     company: "Salesforce",
   },
@@ -46,4 +42,12 @@ export const skills = [
   "MongoDB",
   "Git, Bitbucket",
   "JIRA, Enable"
+];
+
+
+export const education = [
+{Program :"Digital Transformation Management",
+ School : "Simon Fraser University",},
+{Program : "Computer Science (major), Statistics (minor)",
+School: "University Of Winnipeg",},
 ];
