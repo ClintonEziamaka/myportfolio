@@ -22,6 +22,11 @@ export const certifications = [
     name: "Salesforce Certified Administrator",
     company: "Salesforce",
   },
+
+  {
+    name:"Salesforce Developer I",
+    company:"Salesforce",
+  },
 ];
 
 export const testimonials = [
@@ -46,8 +51,13 @@ export const skills = [
 
 
 export const education = [
-{Program :"Digital Transformation Management",
- School : "Simon Fraser University",},
-{Program : "Computer Science (major), Statistics (minor)",
-School: "University Of Winnipeg",},
+{
+  Program :"Digital Transformation Management",
+ School : "Simon Fraser University",
+},
+{
+  Program : "Computer Science (major), Statistics (minor)",
+School: "University Of Winnipeg",
+},
+
 ];
