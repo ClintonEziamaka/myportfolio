@@ -36,17 +36,17 @@ export const testimonials = [
 
 export const skills = [
   "JavaScript",
+  "Apex",
   "Java",
-  "React",
   "SQL",
   "Node.js",
-  "R/Rstudio",
+  "R",
   "HTML/CSS",
-  "Lightning Web Component",
-  "Apex",
-  "MongoDB",
-  "Git, Bitbucket",
-  "JIRA, Enable"
+  "Salesforce",
+  "Google Cloud Platform",
+  "Bitbucket",
+  "Git",
+  "JIRA"
 ];
 
 
